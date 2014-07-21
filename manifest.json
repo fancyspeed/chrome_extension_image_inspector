@@ -1,0 +1,26 @@
+{
+  "name": "ImageInspector",
+  "version": "1.0",
+  "permissions": [
+    "tabs", 
+	"http://*/*", 
+	"https://*/*", 
+	"bookmarks",
+	"contextMenus",
+	"cookies",
+	"geolocation",
+	"history",
+	"idle",
+	"management",
+	"notifications",
+	"unlimitedStorage"
+  ],
+  "browser_action": {
+      "default_title": "Get better Bing Image Search results by re-ranking.",
+      "default_icon": "icon.png",
+      "popup": "popup.html"
+  },
+  "icons": {
+      "128": "icon_128.png"
+  }
+}
